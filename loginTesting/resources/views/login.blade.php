@@ -73,7 +73,7 @@
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-md-8">
                         <form method="post" action="{{ action('LoginController@process') }}">
-                            <div class="login bg-graph-purple mt-5 mb-2 BEHUAY">
+                            <div class="login bg-graph-purple mt-5 mb-2">
                                 <h5>เข้าสู่ระบบ</h5>
                                 @if (count($errors) > 0)
                                 <div class="alert alert-danger">
